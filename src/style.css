@@ -1,0 +1,29 @@
+.footer {
+  text-align: center;
+  margin: 40px;
+}
+
+.gitHub {
+  text-decoration: none;
+  color: #efdffc;
+  text-align: center;
+}
+
+.gitHub:hover {
+  text-decoration: underline;
+}
+
+.linkedIn {
+  text-decoration: none;
+  color: #efdffc;
+  text-align: center;
+}
+
+.linkedIn:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+}
