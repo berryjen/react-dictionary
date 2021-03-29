@@ -1,4 +1,4 @@
-import logo from "./montenegro.png";
+import logo from "./Kotor.jpg";
 import './App.css';
 import Footer from "./Footer";
 import "./style.css";
