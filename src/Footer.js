@@ -7,7 +7,7 @@ export default function Footer() {
         <a
           href="https://github.com/berryjen/react-dictionary"
           target="_blank"
-          class="gitHub"
+          className="gitHub"
           rel="noopener noreferrer"
         >
           Open source {""}
@@ -16,7 +16,7 @@ export default function Footer() {
         <a
           href="https://linkedin.com/in/jennifer-s-27462888"
           target="_blank"
-          class="linkedIn"
+          className="linkedIn"
           rel="noopener noreferrer"
         >
           Jennifer Su {""}

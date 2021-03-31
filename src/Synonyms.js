@@ -2,10 +2,11 @@ import React from "react";
 
 export default function Synonyms(props) {
   if(props.synonyms) {
+   
      return (
        <ul className="Synonyms">
          <strong>
-          < span ClassName="Similar">
+          < span className="Similar">
          Synonyms:
          </span> 
          </strong>
