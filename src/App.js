@@ -10,6 +10,9 @@ export default function App() {
       <div className="container">
       <header className="App-header">
         <img src={logo} className="App-logo img-fluid" alt="logo" />
+         <div className= "title">
+      Dictionary
+           </div>
         
       </header>
         <main>

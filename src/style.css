@@ -1,3 +1,80 @@
+body {
+  background-image: url(./cozy-reading.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Dictionary {
+  text-align: center;
+  padding: 5px;
+  margin: 0 auto;
+  position: relative;
+  top: 5px;
+}
+
+.title {
+  text-align: center;
+  color: #39083F;
+  padding: 5px;
+  font-family: 'New Tegomin', serif;
+  font-size: 32px;
+  margin: 0 auto;
+}
+
+.hint {
+font-family: 'New Tegomin', serif;
+font-size: 16px;
+margin-top: 5px;
+}
+
+.Dictionary input {
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px 6px;
+  border: 1px solid #ddd;
+}
+.Dictionary section {
+  background: #EFEFEF;
+  opacity: 0.6;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px 0;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.Results {
+  text-align: center;
+  color: #39083F;
+  padding: 5px;
+}
+
+#pronounce {
+  position: relative;
+  bottom: 85px;
+  right: 10px;
+}
+.Meaning {
+  color: #39083F;
+  text-align: center;
+  font-family: 'New Tegomin', serif;
+  font-size: 28px;
+}
+
+.Example {
+  font-size: 24px;
+  color: #C52B05;
+}
+
+.Synonyms {
+  font-size: 22px;
+}
+
+.Phonetic {
+  text-align: center;
+  padding: 35px;
+ 
+}
 .footer {
   text-align: center;
   margin: 40px;

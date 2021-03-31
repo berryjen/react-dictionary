@@ -25,12 +25,18 @@ export default function Dictionary () {
   }
 
    return (
-  <div className="dictionary">
+  <div className="Dictionary">
+    <section>
     <form onSubmit={search}>
-       <input type="search" onChange={handleKeywordChange}
+       <input type="search"  placeholder= "type in a word" onChange={handleKeywordChange}
        autoFocus={true} />
     </form>
+   <div className="hint">
+     suggested words: sunrise, waterfall, wine, travel, alliteration...
+   </div>
+    </section>
     <Results results={results} />
     </div>
+  
   );
 }
