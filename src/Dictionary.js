@@ -22,9 +22,12 @@ export default function Dictionary () {
    setKeyword(event.target.value);
   }
 
-   return (
+ return (
   <div className="Dictionary">
     <section>
+    <h1>
+      What word do you want to look up?
+    </h1>
     <form onSubmit={search}>
        <input type="search"  placeholder= "type in a word" onChange={handleKeywordChange}
        autoFocus={true} />
