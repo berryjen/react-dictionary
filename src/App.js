@@ -16,7 +16,7 @@ export default function App() {
         
       </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="travel" />
         </main>
       <Footer />
       </div>

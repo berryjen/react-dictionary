@@ -73,7 +73,7 @@ margin-top: 5px;
 .Phonetic {
   text-align: center;
   padding: 35px;
- 
+  border: 1px solid #ddd;
 }
 .footer {
   text-align: center;
