@@ -7,15 +7,23 @@ export default function Dictionary () {
   let [keyword, setKeyword] = useState("");
   let [results, setResults] = useState(null);
   
-  function handleResponse(response) {
+  function handleDictionaryResponse(response) {
     setResults(response.data[0]);
   }
 
+  function handlePexelsResponse(response) {
+  console.log(response);
+  }
   function search(event) {
-     event.preventDefault();
+    event.preventDefault();
     //documentation: https://dictionaryapi.dev//
-  let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
-  axios.get(apiUrl).then(handleResponse);
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
+    axios.get(apiUrl).then(handleDictionaryResponse);
+     
+    let pexelsApiKey= "563492ad6f91700001000001c71b3613d49e4fd19d96dc112daa1a5d";
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=1`;
+    let headers = {"Authorization" : `Bearer ${pexelsApiKey}` };
+    axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
    
   function handleKeywordChange(event) {

@@ -10,3 +10,7 @@
   box-shadow: 5px 5px 5px #B7A9D1;
 }
 
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
