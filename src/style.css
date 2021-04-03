@@ -102,6 +102,12 @@ margin-top: 5px;
   margin: 0 auto;
   padding: 10px 20px;
 }
+
+.Photos img {
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
 .footer {
   text-align: center;
   margin: 40px;
