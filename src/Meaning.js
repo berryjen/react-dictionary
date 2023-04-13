@@ -29,10 +29,10 @@ export default function Meaning(props) {
             <em>
               {definition.exmaple}
             </em>
-            <Synonyms synonyms={definition.synonyms} />
         </div>
       ); 
       })}
+      <Synonyms synonyms={props.meaning.synonyms} />
       </div>
   );
     }
